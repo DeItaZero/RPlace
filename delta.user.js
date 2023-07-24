@@ -156,7 +156,7 @@ if (window.top !== window.self) {
         }, 5_000);
       };
 
-      // placeImage();
+      setTimeout(placeNext, 20_000);
     },
     false
   );
